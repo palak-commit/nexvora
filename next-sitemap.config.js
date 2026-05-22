@@ -25,6 +25,11 @@ module.exports = {
     await config.transform(config, '/best-free-ai-tools'),
     await config.transform(config, '/best-ai-productivity-tools'),
     await config.transform(config, '/best-ai-video-tools'),
+    await config.transform(config, '/best-ai-logo-makers'),
     await config.transform(config, '/best-chatgpt-alternatives'),
+    await config.transform(config, '/about'),
+    await config.transform(config, '/contact'),
+    await config.transform(config, '/privacy-policy'),
+    await config.transform(config, '/disclaimer'),
   ],
 }

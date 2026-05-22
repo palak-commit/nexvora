@@ -30,8 +30,27 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Nexvora",
+    "url": "https://nexvora.vercel.app",
+    "description": "Explore next-generation AI tools, prompts, and automation systems.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://nexvora.vercel.app/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body>{children}</body>
     </html>
   );

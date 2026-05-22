@@ -12,6 +12,7 @@ const seoLinks = [
   { href: "/best-free-ai-tools", label: "Free AI Tools" },
   { href: "/best-ai-productivity-tools", label: "Productivity AI" },
   { href: "/best-ai-video-tools", label: "AI Video Tools" },
+  { href: "/best-ai-logo-makers", label: "AI Logo Makers" },
   { href: "/best-chatgpt-alternatives", label: "ChatGPT Alternatives" },
 ];
 

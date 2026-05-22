@@ -31,6 +31,7 @@ const articles = [
   { title: "10 Best ChatGPT Alternatives You Must Try", slug: "best-chatgpt-alternatives", readTime: "6 min", tag: "Comparison" },
   { title: "Best Free AI Tools That Replace Paid Software", slug: "best-free-ai-tools", readTime: "7 min", tag: "Free" },
   { title: "AI Coding Tools Every Developer Needs in 2025", slug: "best-ai-coding-tools", readTime: "5 min", tag: "Dev" },
+  { title: "Top 10 AI Logo Makers for Professional Branding", slug: "best-ai-logo-makers", readTime: "4 min", tag: "Design" },
 ];
 
 /* ─── PARTICLES ─────────────────────────────────────────────────── */
